@@ -14,3 +14,13 @@ Your task is to use the above instructions to convert the three CSV files into a
 When you are finished, commit and push your changes.
 
 My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/process.py).
+
+## Task 2
+
+Your task is to create a Dash app to visualise the data you generated in the last task. Your application must incorporate a header which appropriately titles the visualiser, and a line chart which visualises the sales data generated in the last task, sorted by date. 
+ 
+Recall the original purpose of the Dash app you are building — the goal is to answer Soul Foods’s question: “Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?” 
+ 
+When you are finished, commit and push your changes.
+
+My code [here]().
