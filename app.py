@@ -13,7 +13,7 @@ app.layout = html.Div([
     html.Hr(),
     dcc.RadioItems(
         options=[{'label': 'all', 'value': 'all'}] + [{'label': region, 'value': region} for region in unique_regions], 
-        value='All', 
+        value='all', 
         id='controls-and-radio-item'
     ),
     dcc.Graph(figure={}, id='controls-and-graph')
@@ -24,7 +24,7 @@ app.layout = html.Div([
     [Input(component_id='controls-and-radio-item', component_property='value')]
 )
 def update_graph(region_selected):
-    if region_selected == 'All':
+    if region_selected == 'all':
         filtered_df = df
     else:
         filtered_df = df[df['region'] == region_selected]
