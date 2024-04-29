@@ -24,5 +24,5 @@ Recall the original purpose of the Dash app you are building — the goal is to 
  
 When you are finished, commit and push your changes.
 
-My code [here]([https://github.com/luwoon/Quantium-Software-Engineering/blob/main/process.py](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/app.py).  
-Dash output [here]([https://github.com/luwoon/Quantium-Software-Engineering/blob/main/output.csv](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/Dash.png).
+My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/process.py](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/app.py).  
+Dash output [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/output.csv](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/Dash.png).
