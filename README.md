@@ -1,10 +1,10 @@
 # Quantium Software Engineering Job Simulation
 
-## Task 1
+## Data Preprocessing
 
 Soul Foods has provided you with three CSV files which contain transaction data for Soul Foods’s entire morsel line. Each row indicates the quantity of a given type of morsel sold in a given region at a given price on a given day. 
 
-The first field, “product”, contains many different types of morsels. Soul Foods is only interested in Pink Morsels, so we can remove any row which contains another type of product.
+The first field, “product” contains many different types of morsels. Soul Foods is only interested in Pink Morsels, so we can remove any row which contains another type of product.
 Next are “quantity” and “price”. Since we’re interested in the total sales for a given day, these can be combined into a single field, “sales,” by multiplying them together.
 The date field is useful as is and can remain untouched.
 It would be nice to filter by region in the final visualisation, so we’ll also leave the region field untouched.
@@ -16,7 +16,7 @@ When you are finished, commit and push your changes.
 My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/process.py).  
 Output file [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/output.csv).
 
-## Task 2
+## Visualisation
 
 Your task is to create a Dash app to visualise the data you generated in the last task. Your application must incorporate a header which appropriately titles the visualiser, and a line chart which visualises the sales data generated in the last task, sorted by date. 
  
@@ -24,5 +24,4 @@ Recall the original purpose of the Dash app you are building — the goal is to 
  
 Soul Foods would like a way to dig into region-specific sales data for Pink Morsels. To this end, they’d like a radio button in your visualiser which allows them to filter sales data by region. Leaning on the resources linked below, add a radio button with five options to narrow which data appear in the line chart: “north,” “east,” “south,” “west,” and “all.”
 
-My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/app.py).  
-Dash output [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/Dash.png).
+My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/app.py).
