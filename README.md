@@ -22,7 +22,7 @@ Your task is to create a Dash app to visualise the data you generated in the las
  
 Recall the original purpose of the Dash app you are building — the goal is to answer Soul Foods’s question: “Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?” 
  
-When you are finished, commit and push your changes.
+Soul Foods would like a way to dig into region-specific sales data for Pink Morsels. To this end, they’d like a radio button in your visualiser which allows them to filter sales data by region. Leaning on the resources linked below, add a radio button with five options to narrow which data appear in the line chart: “north,” “east,” “south,” “west,” and “all.”
 
 My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/app.py).  
 Dash output [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/Dash.png).
