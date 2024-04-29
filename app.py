@@ -11,6 +11,7 @@ app = Dash(__name__)
 app.layout = html.Div([
     html.H1(children='Sales increased after the Pink Morsel price increase on the 15th of January, 2021.', style={'textAlign':'center'}),
     html.Hr(),
+    html.Label('Region:'),
     dcc.RadioItems(
         options=[{'label': 'all', 'value': 'all'}] + [{'label': region, 'value': region} for region in unique_regions], 
         value='all', 
