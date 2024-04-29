@@ -14,6 +14,7 @@ Your task is to use the above instructions to convert the three CSV files into a
 When you are finished, commit and push your changes.
 
 My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/process.py).
+Output file [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/output.csv).
 
 ## Task 2
 
