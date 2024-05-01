@@ -2,26 +2,20 @@
 
 ## Data Preprocessing
 
-Soul Foods has provided you with three CSV files which contain transaction data for Soul Foods’s entire morsel line. Each row indicates the quantity of a given type of morsel sold in a given region at a given price on a given day. 
+Soul Foods has provided three CSV files containing transaction data for their entire morsel line for 2018, 2019, and 2020. Each row indicates the quantity of a given type of morsel sold in a given region at a given price on a given day. The five data fields are "product", "price", "quantity", "date", and "region". 
 
-The first field, “product” contains many different types of morsels. Soul Foods is only interested in Pink Morsels, so we can remove any row which contains another type of product.
-Next are “quantity” and “price”. Since we’re interested in the total sales for a given day, these can be combined into a single field, “sales,” by multiplying them together.
-The date field is useful as is and can remain untouched.
-It would be nice to filter by region in the final visualisation, so we’ll also leave the region field untouched.
- 
-Your task is to use the above instructions to convert the three CSV files into a single formatted output file. Your output file should contain three fields: Sales, Date, and Region.
- 
-When you are finished, commit and push your changes.
+Soul Foods is only interested in Pink Morsels, so rows containing other types of products were removed.
 
-My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/process.py).  
+Since Soul Foods is interested in the total sales for a given day, the "price" and "quantity" fields were combined into a single field, “sales,” by multiplying them together.
+
+The python code to convert the three files into a single formatted output file is [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/process.py). Only the three relevant fields "Sales", "Date", and "Region" were retained.
+
 Output file [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/output.csv).
 
 ## Visualisation
 
-Your task is to create a Dash app to visualise the data you generated in the last task. Your application must incorporate a header which appropriately titles the visualiser, and a line chart which visualises the sales data generated in the last task, sorted by date. 
- 
-Recall the original purpose of the Dash app you are building — the goal is to answer Soul Foods’s question: “Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?” 
- 
-Soul Foods would like a way to dig into region-specific sales data for Pink Morsels. To this end, they’d like a radio button in your visualiser which allows them to filter sales data by region. Leaning on the resources linked below, add a radio button with five options to narrow which data appear in the line chart: “north,” “east,” “south,” “west,” and “all.”
+A Dash app was created to visualise the data. The application incorporated a header and a line chart which visualises the sales data generated in the last task, sorted by date. The goal of the Dash app is to answer Soul Foods’s question: “Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?” 
 
-My code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/app.py).
+A radio button was added to allow Soul Foods to dig into region-specific sales data for Pink Morsels. 
+
+See the Dash app python code [here](https://github.com/luwoon/Quantium-Software-Engineering/blob/main/app.py).
